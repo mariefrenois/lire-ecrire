@@ -19,6 +19,7 @@ Respect des droits d'auteur, politique de l'extrait.
 Demander l'autorisation.
 Fournir les outils pour être contributeur en toute légalité.
 apporter de la visibilité au projet.
+Contrainte de taille ? Un scan A4 max, 1 min de son max, 50 lignes max ?
 
 ### Donner corps au texte
 Ces lectures peuvent prendre des formes plurielles. Elles peuvent se traduire sous forme de texte bien entendu, qu'il s'agissent de facsimilé ou de fichier texte. Le lecteur/utilisateur du site est encouragé à s'approprier son document que ce soit par la numérisation, la mise en forme, la captation audio d'une lecture à voix haute… tout est possible tant que l'information reste accessible et compréhensible.
