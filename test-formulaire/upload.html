@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Encodage des caractères pour que les accents s'affichent correctement-->
+    <meta charset="utf-8" />
+    <!-- Le titre de ma page  -->
+    <title>upload</title>
+    <!-- J'appelle ma feuille de style externe nommée style.css, dans le dossier "css" à côté de ce fichier html-->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  
+    <form method="POST" action="upload.php" enctype="multipart/form-data">	
+        
+     <!-- Le contenu du formulaire est à placer ici... -->
+         <!-- On limite le fichier à 100Ko -->
+     <!--  <input type="hidden" name="MAX_FILE_SIZE" value="100000">
+     <input type="file" name="doc">
+     <input type="submit" name="envoyer" value="Envoyer le fichier"> -->
+        
+           <label for="icone">Image de présentation (JPG, PNG ou GIF | max. 15 Ko) :</label><br />
+     <input type="file" name="icone" id="icone" /><br />
+     <label for="mon_fichier">Fichier (tous formats | max. 1 Mo) :</label><br />
+     <input type="hidden" name="MAX_FILE_SIZE" value="1048576" />
+     <input type="file" name="mon_fichier" id="mon_fichier" /><br />
+     <label for="titre"><!--Titre de la recherche/projet (max. 50 caractères) : --></label><br />
+     <input type="text" name="titre" value="Titre de la recherche/projet" id="titre" /><br />
+    <label for="titre"><!--Nom(max. 50 caractères) :--></label><br />
+     <input type="text" name="nom" value="Nom" id="nom" /><br />
+        <label for="titre"><!--Prénom(max. 50 caractères) : --></label><br />
+     <input type="text" name="prenom" value="Prénom" id="prenom" /><br /><br />
+        
+        <input type="email" name="email" value="Email" id="email" /><br />
+     <!--    <label for="titre">Bac/Master(max. 50 caractères) : </label><br />
+     <input type="text" name="bacmaster" value="Bac/Master" id="bacmaster" /><br /> -->
+        <label></label>
+    
+     <!--    <label for="titre">Option(max. 50 caractères) : </label><br />
+     <input type="text" name="option" value="Option" id="option" /><br />-->
+     <label for="description"><!--Description(max. 255 caractères) : --></label><br />
+     <textarea name="description"  id="description">Description des recherches</textarea><br />
+     <input type="submit" name="submit" value="Envoyer" />
+        
+    </form> 
+    
+   
+    
+
+    
+    
+    
+    
+</body>
+
+</html>
