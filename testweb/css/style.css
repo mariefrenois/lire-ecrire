@@ -1,0 +1,19 @@
+#titre {width: 300px; font-size: 18px; background-image: linear-gradient(-120deg, rgba(193, 93, 255, 0.79), aquamarine); font-size: 18px;
+}
+textarea {width: 600px;
+height: 300px; margin-top: 20px;   
+    border: 5px solid black;
+background-image: linear-gradient(-120deg, rgba(193, 93, 255, 0.79), aquamarine); font-size: 18px; }
+
+label {font-family: sans-serif; font-size: 10px; color: aquamarine; margin-bottom: 10px;  }
+
+select, input {
+    border: 2px solid black;
+    font-size: 14px;
+   
+}
+
+body {
+    background-image: linear-gradient(120deg, rgba(193, 93, 255, 0.79), aquamarine) ;
+    
+}
