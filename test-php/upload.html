@@ -14,13 +14,24 @@
   
     <form method="POST" action="hello.php" enctype="multipart/form-data">	
         
-     <!-- Le contenu du formulaire est à placer ici... -->
-         <!-- On limite le fichier à 100Ko -->
-     <!--  <input type="hidden" name="MAX_FILE_SIZE" value="100000">
-     <input type="file" name="doc">
-     <input type="submit" name="envoyer" value="Envoyer le fichier"> -->
-        <p id="titrepartE">ECRITURE</p> 
-        <p id="titrepartL">LECTURE</p> 
+     
+        
+        <label>LIRE
+<input type="radio"  name="radio1" value="LIRE">
+</label>
+<label>ECRIRE
+<input type="radio" name="radio1" value="ECRIRE">
+</label>
+        <label>LIREetECRIRE
+<input type="radio" name="radio1" value="LIRE&ECRIRE">
+</label>
+        
+        <br/>
+        <br/>
+        <br/>
+        
+        <p id="titrepartE">ECRIRE</p> 
+        <p id="titrepartL">LIRE</p> 
         
            <label for="icone">Image de présentation (JPG, PNG ou GIF | max. 15 Ko) :</label><br />
      <input type="file" name="cover" id="icone" /><br />
@@ -29,23 +40,36 @@
      <input type="file" name="mon_fichier" id="mon_fichier" /><br />
      <label for="titre"><!--Titre de la recherche/projet (max. 50 caractères) : --></label><br />
      <input type="text" name="titre" value="Titre de la recherche/projet" id="titre" /><br />
+             <label for="titre"><!--Nom(max. 50 caractères) :--></label><br />
+     <input type="text" name="auteurlire" value="Auteur" id="nom" /><br />
+        
     <label for="titre"><!--Nom(max. 50 caractères) :--></label><br />
-     <input type="text" name="auteur" value="NomPrénom" id="nom" /><br />
+     <input type="text" name="auteur" value="Ton nom prénom" id="nom" /><br />
         <br />
+    
         
         <input type="email" name="mail" value="Email" id="email" /><br />
      
        
      <label for="description"><!--Description(max. 255 caractères) : --></label><br/>
-     <textarea name="description"  id="description">Description des recherches</textarea>
-    
-        <label for="titre"><!--Nom(max. 50 caractères) :--></label><br /><br />
-     <input type="text" name="liens" value="Liens" id="liens" /><br />
+     <textarea name="description"  id="description">Description des recherches</textarea><br /><br />
+   
+     <input type="url" name="liens" value="Liens" id="liens" /><br /><br />
         
-        <label for="titre"><!--Nom(max. 50 caractères) :--></label><br />
+    
      <input type="text" name="ref" value="Références" id="ref" /><br /><br />
         
+         
+     <input type="text" name="tags" value="Tags" id="tags" /><br /><br />
+        
      <input type="submit" name="submit" value="Envoyer" />
+        
+   <!--     <label for="lumi">Luminosité</label>
+<input id="lumi" type="range" list="lumidata" min="0" max="100" value="50" step="1">
+<datalist id="lumidata">
+  <option label="Minimum" value="0">
+  <option label="Maximum" value="100"> 
+</datalist>   TEST -->
         
     </form> 
     
